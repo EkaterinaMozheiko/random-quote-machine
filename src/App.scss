@@ -31,11 +31,12 @@ body {
   padding: 10px;
   cursor: pointer;
   outline: none;
-  width: 200px;
   border-radius: 10px;
+  color: white;
+  border: none;
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
 }
 
@@ -60,4 +61,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.tweet-button {
+  cursor: pointer;
+  background: 50% 50% url(twitter-letter-logo.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
 }
